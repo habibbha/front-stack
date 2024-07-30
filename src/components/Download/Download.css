@@ -1,0 +1,28 @@
+.app-download {
+    margin: 100px auto;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+    padding-top: 120px;
+}
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+    margin-top: 40px;
+}
+.app-download-platforms img{
+   width:max(30vw,120px);
+   max-width: 180px;
+   transition: 0.5s;
+   cursor: pointer;
+   padding-top: 50px;
+}
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+ }
+ .app-download p{
+    color:rgb(26, 86, 176) ;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }

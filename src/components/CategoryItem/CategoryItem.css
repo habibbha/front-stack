@@ -1,0 +1,95 @@
+.category-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+  }
+  
+  .category-item-image {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 0.5px solid #bdbcb94d;
+  }
+  
+  .category-item-info {
+    padding: 20px;
+  }
+  
+  .category-item-name p {
+    color: rgb(26, 86, 176);
+  }
+  
+  .category-item-name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: -16px;
+  }
+  
+  .category-item-description {
+    color: rgb(99, 148, 221);
+    font-size: 14.5px;
+    padding-top: 14px;
+  }
+  
+  .category-item-price {
+    color: #ffc107;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+    padding-top: 3px;
+  }
+  
+  .category-item-img-container {
+    position: relative;
+  }
+  
+  .category-item-img-container .add {
+    width: 55px;
+    position: absolute;
+    bottom: 5px;
+    right: 0.5px;
+    cursor: pointer;
+  }
+  
+  .category-item-counter {
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 50px;
+    gap: 10px;
+    background: rgba(239, 234, 234, 0.83);
+  }
+  
+  .category-item-counter .minus {
+    width: 25px;
+  }
+  
+  .category-item-counter .plus {
+    width: 25px;
+  }
+  
+  .rate {
+    color: rgb(67, 122, 205);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+    padding: 18px 7px;
+    margin-right: 190px;
+  }
+  .add{
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .add:hover{
+    transform: scale(1.2);
+  }

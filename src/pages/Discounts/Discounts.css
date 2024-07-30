@@ -1,0 +1,9 @@
+.titre-h1{
+    color:  rgb(26, 86, 176);
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

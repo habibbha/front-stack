@@ -1,0 +1,65 @@
+
+.header {
+    height: 78vh;
+    margin: 25px auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 50px;
+    transition: background-image 1s ease-in-out;
+    margin-top: 9rem;
+    
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2vw;
+    max-width: 70%;
+    bottom: 12%;
+    left: 3vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: max(3.5vw, 15px);
+}
+
+.header-contents p {
+    color:whitesmoke;
+    font-size: 1vw;
+    max-width: 45%;
+}
+
+.header-contents button {
+    border: none;
+    color: rgb(55, 104, 184);
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 15px);
+    border-radius: 50px;
+}
+.read{
+    cursor: pointer;
+}
+.read :hover{
+    background-color: rgb(55, 104, 184) ;
+    color:  #ffc107;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 3;
+    }
+}
+
+
+
